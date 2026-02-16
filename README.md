@@ -84,7 +84,7 @@ cd backend
 python -m venv myenv
 .\myenv\Scripts\activate
 pip install -r requirements.txt
-python run_server.py
+run_server.bat
 # Server runs at http://localhost:8000
 ```
 
