@@ -1,0 +1,14 @@
+uvicorn
+python-multipart
+torch
+torchvision
+torchaudio
+numpy
+pandas
+scikit-learn
+librosa
+soundfile
+pillow
+joblib
+requests
+fastapi

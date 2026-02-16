@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply bg-slate-950 text-slate-100 antialiased;
+        font-feature-settings: "cv02", "cv03", "cv04";
+        /* Inter features */
+    }
+}
+
+@layer utilities {
+    .text-gradient {
+        @apply bg-clip-text text-transparent bg-gradient-to-r from-cyan-400 to-blue-500;
+    }
+
+    .glass-card {
+        @apply bg-slate-900/40 backdrop-blur-md border border-slate-700/50 shadow-xl;
+    }
+}
