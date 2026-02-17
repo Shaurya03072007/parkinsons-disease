@@ -53,7 +53,7 @@ const Procedure = () => {
         formData.append('file', imageFile);
 
         try {
-            const apiCall = fetch('http://localhost:8000/predict/image', {
+            const apiCall = fetch('https://parkinsons-disease-fbbf.onrender.com/predict/image', {
                 method: 'POST',
                 body: formData,
             });
@@ -83,7 +83,7 @@ const Procedure = () => {
         formData.append('file', voiceFile);
 
         try {
-            const apiCall = fetch('http://localhost:8000/predict/voice', {
+            const apiCall = fetch('https://parkinsons-disease-fbbf.onrender.com/predict/voice', {
                 method: 'POST',
                 body: formData,
             });
