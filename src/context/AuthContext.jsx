@@ -42,7 +42,7 @@ export const AuthProvider = ({ children }) => {
       });
 
       // 4. Verify with backend
-      const response = await fetch('http://localhost:8000/auth/google', {
+      const response = await fetch('https://parkinsons-disease-fbbf.onrender.com/auth/google', {
         method: 'POST',
         body: JSON.stringify({ token: credential }),
         headers: { 'Content-Type': 'application/json' }
